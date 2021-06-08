@@ -1,0 +1,15 @@
+@import "~bootstrap/scss/bootstrap";
+
+:root {
+    --primary-color:white;
+    --secondary-color:gray;
+}
+
+body {
+    background-color:var(--primary-color);
+}
+h1 {
+    color:var(--secondary-color);
+}
+
+
