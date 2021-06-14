@@ -55,7 +55,7 @@ class ProgramController extends AbstractController
     }
 
     /**
-     * @route("/{programId<^[0-9]+$>}/seasons/{seasonId<^[0-9]+$>}}", methods={"GET"}, name="season_show")
+     * @route("/{programId<^[0-9]+$>}/seasons/{seasonId<^[0-9]+$>}", methods={"GET"}, name="season_show")
      * @return Response
      */
     public function showSeason(int $programId, int $seasonId): response

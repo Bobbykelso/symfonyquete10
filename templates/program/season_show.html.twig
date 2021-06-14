@@ -1,4 +1,6 @@
-{% include 'base.html.twig' %}
+{% extends 'base.html.twig' %}
+
+{% block title %}Série #{{ program.id }}{% endblock %}
 
 {% block body %}
 	<h1>{{ program.title }}</h1>
